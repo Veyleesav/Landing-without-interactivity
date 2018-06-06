@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://coursera.com/index.html</loc>
+    <lastmod>2018-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://coursera.com/images/logo_8bit.png</image:loc>
+      <image:caption>Логотип Яндекс.авто</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/offroad_cars.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/video_snapshot.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/catalogue%20icon.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/intersections.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/magnifying_glass.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/search_field.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/left_arrow.png</image:loc>
+      <image:caption>Стрелка налево</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/right_arrow.png</image:loc>
+      <image:caption>Стрелка налево</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://coursera.com/images/play_arrow.png</image:loc>
+    </image:image>
+  </url>
+</urlset>
