@@ -49,7 +49,7 @@
     left: 761px;
 }
 
-#u147 {
+#offroad {
     z-index: 9;
     width: 596px;
     background-color: transparent;
@@ -59,7 +59,7 @@
     left: 196px;
 }
 
-#u154 {
+#video-snapshot {
     z-index: 11;
     width: 641px;
     background-color: transparent;
@@ -69,7 +69,7 @@
     left: 189px;
 }
 
-#u164 {
+#transparent-stripe {
     z-index: 13;
     width: 641px;
     background-color: #92989C;
@@ -82,7 +82,7 @@
     -pie-background: rgba(100, 109, 114, 0.7);
 }
 
-#u173-4 {
+#video-header {
     z-index: 14;
     width: 313px;
     min-height: 34px;
@@ -95,7 +95,7 @@
     left: 171px;
 }
 
-#u182-4 {
+#easy-way-header {
     z-index: 18;
     width: 829px;
     min-height: 56px;
@@ -108,7 +108,7 @@
     left: 98px;
 }
 
-#u212 {
+#catalogue {
     z-index: 22;
     width: 99px;
     background-color: transparent;
@@ -118,7 +118,7 @@
     left: 61px;
 }
 
-#u224 {
+#intersections {
     z-index: 24;
     width: 194px;
     background-color: transparent;
@@ -128,7 +128,7 @@
     left: 532px;
 }
 
-#u234 {
+#magni-glass {
     z-index: 26;
     width: 83px;
     background-color: transparent;
@@ -138,7 +138,7 @@
     left: 298px;
 }
 
-#u254 {
+#search-field {
     z-index: 28;
     width: 174px;
     background-color: transparent;
@@ -148,7 +148,7 @@
     left: 779px;
 }
 
-#buttonu331 {
+#button-left {
     z-index: 30;
     width: 60px;
     height: 46px;
@@ -163,7 +163,7 @@
     left: 88px;
 }
 
-#buttonu331:hover {
+#button-left:hover {
     background-color: #FFE26E;
     background-color: rgba(255, 219, 74, 0.8);
     width: 60px;
@@ -173,7 +173,7 @@
     -pie-background: rgba(255, 219, 74, 0.8);
 }
 
-#buttonu331.ButtonSelected {
+#button-left.ButtonSelected {
     background-color: #FFDB4A;
     background-color: rgba(255, 219, 74, 1);
     width: 60px;
@@ -183,7 +183,7 @@
     -pie-background: rgba(255, 219, 74, 1);
 }
 
-#u342 {
+#arrow-left {
     z-index: 31;
     width: 18px;
     background-color: transparent;
@@ -193,19 +193,19 @@
     left: 21px;
 }
 
-#buttonu331:hover #u342 {
+#button-left:hover #arrow-left {
     width: 18px;
     min-height: 0px;
     margin: 19px -10000px 0px 0px;
 }
 
-#buttonu331.ButtonSelected #u342 {
+#button-left.ButtonSelected #arrow-left {
     width: 18px;
     min-height: 0px;
     margin: 19px -10000px 0px 0px;
 }
 
-#buttonu336 {
+#button-right   {
     z-index: 33;
     width: 60px;
     height: 60px;
@@ -219,7 +219,7 @@
     left: 869px;
 }
 
-#buttonu336:hover {
+#button-right  :hover {
     background-color: #FFE26E;
     background-color: rgba(255, 219, 74, 0.8);
     width: 60px;
@@ -229,7 +229,7 @@
     -pie-background: rgba(255, 219, 74, 0.8);
 }
 
-#buttonu336.ButtonSelected {
+#button-right  .ButtonSelected {
     background-color: #FFDB4A;
     background-color: rgba(255, 219, 74, 1);
     width: 60px;
@@ -239,7 +239,7 @@
     -pie-background: rgba(255, 219, 74, 1);
 }
 
-#u372 {
+#arrow-right {
     z-index: 34;
     width: 18px;
     background-color: transparent;
@@ -249,13 +249,13 @@
     left: 892px;
 }
 
-#u372:hover {
+#arrow-right:hover {
     width: 18px;
     min-height: 0px;
     margin: 331px -10000px 0px 0px;
 }
 
-#buttonu339 {
+#button-play {
     z-index: 36;
     width: 128px;
     height: 128px;
@@ -269,7 +269,7 @@
     left: 445px;
 }
 
-#buttonu339::before {
+#button-play::before {
     content: "";
     position: absolute;
     pointer-events: none;
@@ -281,7 +281,7 @@
     box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.75), inset -1px -1px 2px rgba(0, 0, 0, 0.75);
 }
 
-#buttonu339:hover {
+#button-play:hover {
     background-color: #FFE26E;
     background-color: rgba(255, 219, 74, 0.8);
     width: 128px;
@@ -291,7 +291,7 @@
     -pie-background: rgba(255, 219, 74, 0.8);
 }
 
-#buttonu339.ButtonSelected {
+#button-play.ButtonSelected {
     background-color: #FFDB4A;
     background-color: rgba(255, 219, 74, 1);
     width: 128px;
@@ -301,7 +301,7 @@
     -pie-background: rgba(255, 219, 74, 1);
 }
 
-#u379 {
+#arrow-play {
     z-index: 37;
     width: 44px;
     background-color: transparent;
@@ -311,7 +311,7 @@
     left: 492px;
 }
 
-#u395-4 {
+#header__catalogue {
     z-index: 39;
     width: 111px;
     min-height: 35px;
@@ -324,7 +324,7 @@
     left: 58px;
 }
 
-#u398-4 {
+#header__intersections {
     z-index: 43;
     width: 85px;
     min-height: 35px;
@@ -337,7 +337,7 @@
     left: 298px;
 }
 
-#u401-4 {
+#header__magni {
     z-index: 47;
     width: 199px;
     min-height: 36px;
@@ -350,7 +350,7 @@
     left: 538px;
 }
 
-#u404-4 {
+#header__search-field {
     z-index: 51;
     width: 192px;
     min-height: 36px;
@@ -363,7 +363,7 @@
     left: 778px;
 }
 
-#u425-8 {
+#catalogue__description {
     z-index: 55;
     width: 223px;
     min-height: 171px;
@@ -376,7 +376,7 @@
     left: 58px;
 }
 
-#u428-8 {
+#intersections__description {
     z-index: 63;
     width: 222px;
     min-height: 171px;
@@ -389,7 +389,7 @@
     left: 299px;
 }
 
-#u431-6 {
+#magni__description {
     z-index: 71;
     width: 221px;
     min-height: 171px;
@@ -400,7 +400,7 @@
     left: 538px;
 }
 
-#u419-8 {
+#search-field__description {
     z-index: 77;
     width: 220px;
     min-height: 171px;
@@ -411,7 +411,7 @@
     left: 780px;
 }
 
-#u434-4 {
+#cta {
     z-index: 85;
     width: 652px;
     min-height: 50px;
@@ -424,7 +424,7 @@
     left: 209px;
 }
 
-#buttonu443 {
+#button-try {
     z-index: 89;
     width: 317px;
     height: 58px;
@@ -438,7 +438,7 @@
     left: 351px;
 }
 
-#buttonu443:hover {
+#button-try:hover {
     background-color: #141414;
     width: 317px;
     height: 58px;
@@ -446,7 +446,7 @@
     margin: 1495px -10000px 0px 0px;
 }
 
-#buttonu443.ButtonSelected {
+#button-try.ButtonSelected {
     background-color: #FFDB4A;
     width: 317px;
     height: 58px;
@@ -454,9 +454,9 @@
     margin: 1495px -10000px 0px 0px;
 }
 
-#u452-4 {
+#button-try__text {
     z-index: 90;
-    width: 240px;
+    width: 245px;
     min-height: 23px;
     background-color: transparent;
     letter-spacing: 1px;
@@ -471,28 +471,28 @@
     left: 43px;
 }
 
-#buttonu443:hover #u452-4 {
+#button-try:hover #button-try__text {
     padding-top: 0px;
     padding-bottom: 0px;
     min-height: 23px;
-    width: 240px;
+    width: 245px;
     margin: 15px -10000px 0px 0px;
 }
 
-#buttonu443.ButtonSelected #u452-4 {
+#button-try.ButtonSelected #button-try__text {
     padding-top: 0px;
     padding-bottom: 0px;
     min-height: 23px;
-    width: 240px;
+    width: 245px;
     margin: 15px -10000px 0px 0px;
 }
 
-#buttonu443:hover #u452-4 p {
+#button-try:hover #button-try__text p {
     color: #FFFFFF;
     visibility: inherit;
 }
 
-#buttonu443.ButtonSelected #u452-4 p {
+#button-try.ButtonSelected #button-try__text p {
     color: #473E08;
     visibility: inherit;
 }
@@ -511,3 +511,7 @@ body {
 .sprite.Magnifying_glass { background-position: -109px 0; width: 83px; height:84px; }
 .sprite.Intersections { background-position: -202px 0; width: 194px; height: 76px; }
 .sprite.Search_field { background-position: -406px 0; width: 174px; height: 69px; }
+
+q{
+    text-decoration: none;
+}
