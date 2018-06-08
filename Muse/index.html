@@ -1,4 +1,4 @@
-<!-- TODO: Доработать ховеры -->
+<!-- TODO: "..." если дольше 1 строки в пунктах выбора и ховер на кнопку "Попробовать" -->
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
@@ -13,6 +13,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
     <link rel="stylesheet" type="text/css" href="css/index.css?crc=4239626109" id="pagesheet"/>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 </head>
 <body>
 <main>
@@ -116,5 +117,22 @@
         </div>
     </div>
 </main>
+<script>
+    $('#button-play,#arrow-play').hover(
+        function(){ $('#button-play, #arrow-play').addClass('hover');
+        },
+        function(){ $('#button-play, #arrow-play').removeClass('hover') }
+    )
+    $('#button-left,#arrow-left').hover(
+        function(){ $('#button-left, #arrow-left').addClass('hover');
+        },
+        function(){ $('#button-left, #arrow-left').removeClass('hover') }
+    )
+    $('#button-right,#arrow-right').hover(
+        function(){ $('#button-right, #arrow-right').addClass('hover');
+        },
+        function(){ $('#button-right, #arrow-right').removeClass('hover') }
+    )
+</script>
 </body>
 </html>
