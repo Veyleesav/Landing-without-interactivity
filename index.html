@@ -77,16 +77,16 @@
         </div>
         <div class="clearfix grpelem" id="header__catalogue"><!-- Подзаголовок "Каталог" -->  <!--TODO: ОТСЮДА -->
             <!--TODO: ОТСЮДА -->  <!--TODO: ОТСЮДА -->
-            <h2>Каталог</h2>
+            <h2 class="methods" title="Каталог">Каталог</h2>
         </div>
         <div class="clearfix grpelem" id="header__intersections"><!-- Подзаголовок "Поиск" -->
-            <h2>Поиск</h2>
+            <h2 class="methods" title="Поиск">Поиск</h2>
         </div>
         <div class="clearfix grpelem" id="header__magni"><!-- Подзаголовок "Выборки..." -->
-            <h2>Выборки авт...</h2>
+            <h2 class="methods" title="Выборки автомобилей">Выборки автомобилей</h2>
         </div>
         <div class="clearfix grpelem" id="header__search-field"><!-- Подзаголовок "Простой язык" -->
-            <h2>Простой язык</h2>
+            <h2 class="methods" title="Простой язык">Простой язык</h2>
         </div>
         <div class="clearfix grpelem" id="catalogue__description"><!-- Описание для "Каталога" -->
             <p>Самый большой каталог</p>
@@ -110,28 +110,39 @@
         <div class="clearfix grpelem" id="cta"><!-- Так называемый "Call-To-Action" -->
             <h1>Выбирайте. Находите. Заводите!</h1>
         </div>
-        <div class="Button rounded-corners clearfix grpelem" id="button-try"><!-- кнопка "Попробовать" -->
-            <div class="clearfix grpelem" id="button-try__text"><!-- Контент -->
-                <p>Попробовать!</p>
-            </div>
-        </div>
+        <button class="Button rounded-corners clearfix grpelem button-try-1" id="button-try" >Попробовать!</button><!-- кнопка "Попробовать" -->
     </div>
+
 </main>
 <script>
-    $('#button-play,#arrow-play').hover(
-        function(){ $('#button-play, #arrow-play').addClass('hover');
+    const btnplay='#button-play,#arrow-play';
+    const btnleft='#button-left,#arrow-left';
+    const btright='#button-right,#arrow-right';
+    const btntry='#button-try';
+    $(btnplay).hover(
+        function(){ $(btnplay).addClass('hover');
         },
-        function(){ $('#button-play, #arrow-play').removeClass('hover') }
+        function(){ $(btnplay).removeClass('hover') }
     )
-    $('#button-left,#arrow-left').hover(
-        function(){ $('#button-left, #arrow-left').addClass('hover');
+    $(btnleft).hover(
+        function(){ $(btnleft).addClass('hover');
         },
-        function(){ $('#button-left, #arrow-left').removeClass('hover') }
+        function(){ $(btnleft).removeClass('hover') }
     )
-    $('#button-right,#arrow-right').hover(
-        function(){ $('#button-right, #arrow-right').addClass('hover');
+    $(btright).hover(
+        function(){ $(btright).addClass('hover');
         },
-        function(){ $('#button-right, #arrow-right').removeClass('hover') }
+        function(){ $(btright).removeClass('hover') }
+    )
+    $(btntry).hover(
+        function(){
+            $(btntry).removeClass('button-try-1');
+            $(btntry).addClass('button-try-2');
+        },
+        function(){
+            $(btntry).removeClass('button-try-2');
+            $(btntry).addClass('button-try-1');
+        }
     )
 </script>
 </body>
