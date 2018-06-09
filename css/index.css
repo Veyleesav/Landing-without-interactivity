@@ -424,11 +424,11 @@
     width: 317px;
     height: 70px;
     border-color: #787878;
-    background: -webkit-linear-gradient(90deg, #ffdb00 0%, #ffe34a 100%);
-    background: -moz-linear-gradient(90deg, #ffdb00 0%, #ffe34a 100%);
-    background: -o-linear-gradient(90deg, #ffdb00 0%, #ffe34a 100%);
-    background: -ms-linear-gradient(90deg, #ffdb00 0%, #ffe34a 100%);
-    background: linear-gradient(0deg, #ffdb00 0%, #ffe34a 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255, 225, 47, 1), rgba(255, 225, 106, .82));
+    background: -moz-linear-gradient(0deg, rgba(255, 225, 47, 1), rgba(255, 225, 106, .82));
+    background: -o-linear-gradient(0deg, rgba(255, 225, 47, 1), rgba(255, 225, 106, .82));
+    background: -ms-linear-gradient(0deg, rgba(255, 225, 47, 1), rgba(255, 225, 106, .82));
+    background: linear-gradient(0deg, rgba(255, 225, 47, 1), rgba(255, 225, 106, .82));
     border-radius: 10px;
     padding-bottom: 12px;
     position: relative;
